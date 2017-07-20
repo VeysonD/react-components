@@ -52,31 +52,6 @@ class GroceryListItem extends React.Component{
 
 ReactDOM.render(<GroceryList food={['milk', 'eggs', 'bananas']}/>, document.getElementById("app"));
 
-//why doesn't this work
-
-// class GroceryListItem extends React.Component{ // class component implementation
-//   constructor(props) {
-//     super(props);
-//     this.textStyle = {"font-weight": "normal"}
-//   }
-//   boldText() {
-//     this.textStyle = {"font-weight": "bold"}
-//   }
-//
-//   normalText() {
-//     this.textStyle = {"font-weight": "normal"}
-//   }
-//
-//   render() {
-//
-//     return (
-//       <li style={this.textStyle} onMouseEnter={this.boldText.bind(this)} onMouseLeave={this.normalText.bind(this)}>{this.props.food}</li>
-//       )
-//   }
-// }
-//
-// ReactDOM.render(<GroceryList food={['milk', 'eggs', 'bananas']}/>, document.getElementById("app"));
-
 
 //functional inplementation
 
